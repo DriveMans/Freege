@@ -19,6 +19,7 @@
 		04DED3BA1FF4DAFA006216D2 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DED3B91FF4DAFA006216D2 /* BaseModel.m */; };
 		04DED3BD1FF4DB1D006216D2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DED3BC1FF4DB1D006216D2 /* BaseViewController.m */; };
 		04DED3C01FF4DB3C006216D2 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DED3BF1FF4DB3C006216D2 /* BaseNavigationController.m */; };
+		04DED3C21FF4EF19006216D2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 04DED3C11FF4EF19006216D2 /* README.md */; };
 		E0D3D1D5B48B62113B070617 /* libPods-Freege.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FCC2F77CEAF23D3394F052 /* libPods-Freege.a */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		04DED3BC1FF4DB1D006216D2 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		04DED3BE1FF4DB3C006216D2 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		04DED3BF1FF4DB3C006216D2 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		04DED3C11FF4EF19006216D2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5BE5D57512CFF2508C02FB3F /* Pods-Freege.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freege.release.xcconfig"; path = "Pods/Target Support Files/Pods-Freege/Pods-Freege.release.xcconfig"; sourceTree = "<group>"; };
 		66FCC2F77CEAF23D3394F052 /* libPods-Freege.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Freege.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F054F2AC0B199B2F0CB68C3D /* Pods-Freege.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freege.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Freege/Pods-Freege.debug.xcconfig"; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		04DED35D1FF4D9FA006216D2 = {
 			isa = PBXGroup;
 			children = (
+				04DED3C11FF4EF19006216D2 /* README.md */,
 				04DED3681FF4D9FA006216D2 /* Freege */,
 				04DED3811FF4D9FA006216D2 /* FreegeTests */,
 				04DED38C1FF4D9FA006216D2 /* FreegeUITests */,
@@ -483,6 +486,7 @@
 			files = (
 				04DED3761FF4D9FA006216D2 /* LaunchScreen.storyboard in Resources */,
 				04DED3731FF4D9FA006216D2 /* Assets.xcassets in Resources */,
+				04DED3C21FF4EF19006216D2 /* README.md in Resources */,
 				04DED3711FF4D9FA006216D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
