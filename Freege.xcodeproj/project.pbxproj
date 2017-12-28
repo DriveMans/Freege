@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04DED36B1FF4D9FA006216D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DED36A1FF4D9FA006216D2 /* AppDelegate.m */; };
+		04DED36E1FF4D9FA006216D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DED36D1FF4D9FA006216D2 /* ViewController.m */; };
+		04DED3711FF4D9FA006216D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DED36F1FF4D9FA006216D2 /* Main.storyboard */; };
+		04DED3731FF4D9FA006216D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DED3721FF4D9FA006216D2 /* Assets.xcassets */; };
+		04DED3761FF4D9FA006216D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DED3741FF4D9FA006216D2 /* LaunchScreen.storyboard */; };
+		04DED3791FF4D9FA006216D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DED3781FF4D9FA006216D2 /* main.m */; };
+		04DED3831FF4D9FA006216D2 /* FreegeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DED3821FF4D9FA006216D2 /* FreegeTests.m */; };
+		04DED38E1FF4D9FA006216D2 /* FreegeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DED38D1FF4D9FA006216D2 /* FreegeUITests.m */; };
+		04DED3B51FF4DA65006216D2 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DED3B41FF4DA65006216D2 /* Tool.m */; };
+		04DED3BA1FF4DAFA006216D2 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DED3B91FF4DAFA006216D2 /* BaseModel.m */; };
+		04DED3BD1FF4DB1D006216D2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DED3BC1FF4DB1D006216D2 /* BaseViewController.m */; };
+		04DED3C01FF4DB3C006216D2 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DED3BF1FF4DB3C006216D2 /* BaseNavigationController.m */; };
+		E0D3D1D5B48B62113B070617 /* libPods-Freege.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FCC2F77CEAF23D3394F052 /* libPods-Freege.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04DED37F1FF4D9FA006216D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DED35E1FF4D9FA006216D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DED3651FF4D9FA006216D2;
+			remoteInfo = Freege;
+		};
+		04DED38A1FF4D9FA006216D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DED35E1FF4D9FA006216D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DED3651FF4D9FA006216D2;
+			remoteInfo = Freege;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DED3661FF4D9FA006216D2 /* Freege.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freege.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DED3691FF4D9FA006216D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04DED36A1FF4D9FA006216D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04DED36C1FF4D9FA006216D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04DED36D1FF4D9FA006216D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04DED3701FF4D9FA006216D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04DED3721FF4D9FA006216D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04DED3751FF4D9FA006216D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04DED3771FF4D9FA006216D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DED3781FF4D9FA006216D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04DED37E1FF4D9FA006216D2 /* FreegeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreegeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DED3821FF4D9FA006216D2 /* FreegeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreegeTests.m; sourceTree = "<group>"; };
+		04DED3841FF4D9FA006216D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DED3891FF4D9FA006216D2 /* FreegeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreegeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DED38D1FF4D9FA006216D2 /* FreegeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreegeUITests.m; sourceTree = "<group>"; };
+		04DED38F1FF4D9FA006216D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DED3B31FF4DA65006216D2 /* Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		04DED3B41FF4DA65006216D2 /* Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		04DED3B61FF4DA7B006216D2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04DED3B71FF4DA88006216D2 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		04DED3B81FF4DAFA006216D2 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		04DED3B91FF4DAFA006216D2 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		04DED3BB1FF4DB1D006216D2 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		04DED3BC1FF4DB1D006216D2 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		04DED3BE1FF4DB3C006216D2 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		04DED3BF1FF4DB3C006216D2 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		5BE5D57512CFF2508C02FB3F /* Pods-Freege.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freege.release.xcconfig"; path = "Pods/Target Support Files/Pods-Freege/Pods-Freege.release.xcconfig"; sourceTree = "<group>"; };
+		66FCC2F77CEAF23D3394F052 /* libPods-Freege.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Freege.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F054F2AC0B199B2F0CB68C3D /* Pods-Freege.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freege.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Freege/Pods-Freege.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DED3631FF4D9FA006216D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0D3D1D5B48B62113B070617 /* libPods-Freege.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DED37B1FF4D9FA006216D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DED3861FF4D9FA006216D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DED35D1FF4D9FA006216D2 = {
+			isa = PBXGroup;
+			children = (
+				04DED3681FF4D9FA006216D2 /* Freege */,
+				04DED3811FF4D9FA006216D2 /* FreegeTests */,
+				04DED38C1FF4D9FA006216D2 /* FreegeUITests */,
+				04DED3671FF4D9FA006216D2 /* Products */,
+				8F8B4FB5F9721F9FD2921C9B /* Pods */,
+				BD0CBEDD41A731EF412370C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04DED3671FF4D9FA006216D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DED3661FF4D9FA006216D2 /* Freege.app */,
+				04DED37E1FF4D9FA006216D2 /* FreegeTests.xctest */,
+				04DED3891FF4D9FA006216D2 /* FreegeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DED3681FF4D9FA006216D2 /* Freege */ = {
+			isa = PBXGroup;
+			children = (
+				04DED3AF1FF4DA59006216D2 /* Base */,
+				04DED3AB1FF4DA50006216D2 /* Home */,
+				04DED3A71FF4DA4A006216D2 /* Brands */,
+				04DED3A31FF4DA43006216D2 /* Story */,
+				04DED39F1FF4DA39006216D2 /* Mine */,
+				04DED39C1FF4DA32006216D2 /* Source */,
+				04DED39B1FF4DA15006216D2 /* Vender */,
+				04DED3691FF4D9FA006216D2 /* AppDelegate.h */,
+				04DED36A1FF4D9FA006216D2 /* AppDelegate.m */,
+				04DED36C1FF4D9FA006216D2 /* ViewController.h */,
+				04DED36D1FF4D9FA006216D2 /* ViewController.m */,
+				04DED36F1FF4D9FA006216D2 /* Main.storyboard */,
+				04DED3721FF4D9FA006216D2 /* Assets.xcassets */,
+				04DED3741FF4D9FA006216D2 /* LaunchScreen.storyboard */,
+				04DED3771FF4D9FA006216D2 /* Info.plist */,
+				04DED3781FF4D9FA006216D2 /* main.m */,
+			);
+			path = Freege;
+			sourceTree = "<group>";
+		};
+		04DED3811FF4D9FA006216D2 /* FreegeTests */ = {
+			isa = PBXGroup;
+			children = (
+				04DED3821FF4D9FA006216D2 /* FreegeTests.m */,
+				04DED3841FF4D9FA006216D2 /* Info.plist */,
+			);
+			path = FreegeTests;
+			sourceTree = "<group>";
+		};
+		04DED38C1FF4D9FA006216D2 /* FreegeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04DED38D1FF4D9FA006216D2 /* FreegeUITests.m */,
+				04DED38F1FF4D9FA006216D2 /* Info.plist */,
+			);
+			path = FreegeUITests;
+			sourceTree = "<group>";
+		};
+		04DED39B1FF4DA15006216D2 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		04DED39C1FF4DA32006216D2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				04DED39D1FF4DA32006216D2 /* images */,
+				04DED39E1FF4DA32006216D2 /* static */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		04DED39D1FF4DA32006216D2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		04DED39E1FF4DA32006216D2 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				04DED3B61FF4DA7B006216D2 /* PrefixHeader.pch */,
+				04DED3B71FF4DA88006216D2 /* Header.h */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+		04DED39F1FF4DA39006216D2 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				04DED3A01FF4DA39006216D2 /* models */,
+				04DED3A11FF4DA39006216D2 /* controllers */,
+				04DED3A21FF4DA39006216D2 /* views */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		04DED3A01FF4DA39006216D2 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		04DED3A11FF4DA39006216D2 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		04DED3A21FF4DA39006216D2 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		04DED3A31FF4DA43006216D2 /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				04DED3A41FF4DA43006216D2 /* models */,
+				04DED3A51FF4DA43006216D2 /* controllers */,
+				04DED3A61FF4DA43006216D2 /* views */,
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
+		04DED3A41FF4DA43006216D2 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		04DED3A51FF4DA43006216D2 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		04DED3A61FF4DA43006216D2 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		04DED3A71FF4DA4A006216D2 /* Brands */ = {
+			isa = PBXGroup;
+			children = (
+				04DED3A81FF4DA4A006216D2 /* models */,
+				04DED3A91FF4DA4A006216D2 /* controllers */,
+				04DED3AA1FF4DA4A006216D2 /* views */,
+			);
+			path = Brands;
+			sourceTree = "<group>";
+		};
+		04DED3A81FF4DA4A006216D2 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		04DED3A91FF4DA4A006216D2 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		04DED3AA1FF4DA4A006216D2 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		04DED3AB1FF4DA50006216D2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				04DED3AC1FF4DA50006216D2 /* models */,
+				04DED3AD1FF4DA50006216D2 /* controllers */,
+				04DED3AE1FF4DA50006216D2 /* views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		04DED3AC1FF4DA50006216D2 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		04DED3AD1FF4DA50006216D2 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		04DED3AE1FF4DA50006216D2 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		04DED3AF1FF4DA59006216D2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				04DED3B01FF4DA59006216D2 /* Category */,
+				04DED3B11FF4DA59006216D2 /* Util */,
+				04DED3B21FF4DA59006216D2 /* Tool */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		04DED3B01FF4DA59006216D2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		04DED3B11FF4DA59006216D2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				04DED3B81FF4DAFA006216D2 /* BaseModel.h */,
+				04DED3B91FF4DAFA006216D2 /* BaseModel.m */,
+				04DED3BB1FF4DB1D006216D2 /* BaseViewController.h */,
+				04DED3BC1FF4DB1D006216D2 /* BaseViewController.m */,
+				04DED3BE1FF4DB3C006216D2 /* BaseNavigationController.h */,
+				04DED3BF1FF4DB3C006216D2 /* BaseNavigationController.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		04DED3B21FF4DA59006216D2 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				04DED3B31FF4DA65006216D2 /* Tool.h */,
+				04DED3B41FF4DA65006216D2 /* Tool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		8F8B4FB5F9721F9FD2921C9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F054F2AC0B199B2F0CB68C3D /* Pods-Freege.debug.xcconfig */,
+				5BE5D57512CFF2508C02FB3F /* Pods-Freege.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD0CBEDD41A731EF412370C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66FCC2F77CEAF23D3394F052 /* libPods-Freege.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DED3651FF4D9FA006216D2 /* Freege */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DED3921FF4D9FA006216D2 /* Build configuration list for PBXNativeTarget "Freege" */;
+			buildPhases = (
+				7B4E6479ED87E180ABDB7FCD /* [CP] Check Pods Manifest.lock */,
+				04DED3621FF4D9FA006216D2 /* Sources */,
+				04DED3631FF4D9FA006216D2 /* Frameworks */,
+				04DED3641FF4D9FA006216D2 /* Resources */,
+				FE34F75272DD028FC69F48C6 /* [CP] Embed Pods Frameworks */,
+				82BFD0F7FCC948C28B109C4D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Freege;
+			productName = Freege;
+			productReference = 04DED3661FF4D9FA006216D2 /* Freege.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04DED37D1FF4D9FA006216D2 /* FreegeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DED3951FF4D9FA006216D2 /* Build configuration list for PBXNativeTarget "FreegeTests" */;
+			buildPhases = (
+				04DED37A1FF4D9FA006216D2 /* Sources */,
+				04DED37B1FF4D9FA006216D2 /* Frameworks */,
+				04DED37C1FF4D9FA006216D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DED3801FF4D9FA006216D2 /* PBXTargetDependency */,
+			);
+			name = FreegeTests;
+			productName = FreegeTests;
+			productReference = 04DED37E1FF4D9FA006216D2 /* FreegeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04DED3881FF4D9FA006216D2 /* FreegeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DED3981FF4D9FA006216D2 /* Build configuration list for PBXNativeTarget "FreegeUITests" */;
+			buildPhases = (
+				04DED3851FF4D9FA006216D2 /* Sources */,
+				04DED3861FF4D9FA006216D2 /* Frameworks */,
+				04DED3871FF4D9FA006216D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DED38B1FF4D9FA006216D2 /* PBXTargetDependency */,
+			);
+			name = FreegeUITests;
+			productName = FreegeUITests;
+			productReference = 04DED3891FF4D9FA006216D2 /* FreegeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DED35E1FF4D9FA006216D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Freege Studio";
+				TargetAttributes = {
+					04DED3651FF4D9FA006216D2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					04DED37D1FF4D9FA006216D2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04DED3651FF4D9FA006216D2;
+					};
+					04DED3881FF4D9FA006216D2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04DED3651FF4D9FA006216D2;
+					};
+				};
+			};
+			buildConfigurationList = 04DED3611FF4D9FA006216D2 /* Build configuration list for PBXProject "Freege" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04DED35D1FF4D9FA006216D2;
+			productRefGroup = 04DED3671FF4D9FA006216D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DED3651FF4D9FA006216D2 /* Freege */,
+				04DED37D1FF4D9FA006216D2 /* FreegeTests */,
+				04DED3881FF4D9FA006216D2 /* FreegeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04DED3641FF4D9FA006216D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DED3761FF4D9FA006216D2 /* LaunchScreen.storyboard in Resources */,
+				04DED3731FF4D9FA006216D2 /* Assets.xcassets in Resources */,
+				04DED3711FF4D9FA006216D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DED37C1FF4D9FA006216D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DED3871FF4D9FA006216D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B4E6479ED87E180ABDB7FCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Freege-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82BFD0F7FCC948C28B109C4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Freege/Pods-Freege-resources.sh",
+				"${PODS_ROOT}/AXIndicatorView/AXIndicatorView/Classes/AXIndicatorView.bundle",
+				"${PODS_ROOT}/AXPracticalHUD/AXPracticalHUD/AXPracticalHUD/AXPracticalHUD.bundle",
+				"${PODS_ROOT}/AXWebViewController/AXWebViewController/AXWebViewController/AXWebViewController.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Freege/Pods-Freege-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE34F75272DD028FC69F48C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Freege/Pods-Freege-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DED3621FF4D9FA006216D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DED36E1FF4D9FA006216D2 /* ViewController.m in Sources */,
+				04DED3C01FF4DB3C006216D2 /* BaseNavigationController.m in Sources */,
+				04DED3BD1FF4DB1D006216D2 /* BaseViewController.m in Sources */,
+				04DED3791FF4D9FA006216D2 /* main.m in Sources */,
+				04DED36B1FF4D9FA006216D2 /* AppDelegate.m in Sources */,
+				04DED3BA1FF4DAFA006216D2 /* BaseModel.m in Sources */,
+				04DED3B51FF4DA65006216D2 /* Tool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DED37A1FF4D9FA006216D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DED3831FF4D9FA006216D2 /* FreegeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DED3851FF4D9FA006216D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DED38E1FF4D9FA006216D2 /* FreegeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04DED3801FF4D9FA006216D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DED3651FF4D9FA006216D2 /* Freege */;
+			targetProxy = 04DED37F1FF4D9FA006216D2 /* PBXContainerItemProxy */;
+		};
+		04DED38B1FF4D9FA006216D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DED3651FF4D9FA006216D2 /* Freege */;
+			targetProxy = 04DED38A1FF4D9FA006216D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04DED36F1FF4D9FA006216D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DED3701FF4D9FA006216D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04DED3741FF4D9FA006216D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DED3751FF4D9FA006216D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04DED3901FF4D9FA006216D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04DED3911FF4D9FA006216D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DED3931FF4D9FA006216D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F054F2AC0B199B2F0CB68C3D /* Pods-Freege.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XCCFMTK54;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Freege/Source/static/PrefixHeader.pch";
+				INFOPLIST_FILE = Freege/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipower.Freege;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04DED3941FF4D9FA006216D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE5D57512CFF2508C02FB3F /* Pods-Freege.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XCCFMTK54;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Freege/Source/static/PrefixHeader.pch";
+				INFOPLIST_FILE = Freege/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipower.Freege;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04DED3961FF4D9FA006216D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XCCFMTK54;
+				INFOPLIST_FILE = FreegeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipower.FreegeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Freege.app/Freege";
+			};
+			name = Debug;
+		};
+		04DED3971FF4D9FA006216D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XCCFMTK54;
+				INFOPLIST_FILE = FreegeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipower.FreegeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Freege.app/Freege";
+			};
+			name = Release;
+		};
+		04DED3991FF4D9FA006216D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XCCFMTK54;
+				INFOPLIST_FILE = FreegeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipower.FreegeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Freege;
+			};
+			name = Debug;
+		};
+		04DED39A1FF4D9FA006216D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XCCFMTK54;
+				INFOPLIST_FILE = FreegeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipower.FreegeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Freege;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DED3611FF4D9FA006216D2 /* Build configuration list for PBXProject "Freege" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DED3901FF4D9FA006216D2 /* Debug */,
+				04DED3911FF4D9FA006216D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DED3921FF4D9FA006216D2 /* Build configuration list for PBXNativeTarget "Freege" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DED3931FF4D9FA006216D2 /* Debug */,
+				04DED3941FF4D9FA006216D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DED3951FF4D9FA006216D2 /* Build configuration list for PBXNativeTarget "FreegeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DED3961FF4D9FA006216D2 /* Debug */,
+				04DED3971FF4D9FA006216D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DED3981FF4D9FA006216D2 /* Build configuration list for PBXNativeTarget "FreegeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DED3991FF4D9FA006216D2 /* Debug */,
+				04DED39A1FF4D9FA006216D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04DED35E1FF4D9FA006216D2 /* Project object */;
+}
