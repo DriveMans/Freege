@@ -12,10 +12,10 @@
 
 #if DEBUG
 //#define API_DOMAIN  @"http://192.168.0.160:8089/"///测试服务器
-#define API_DOMAIN  @"https://askj.bisilai.com/"///正式服务器
+#define API_DOMAIN  @"https://baidu.com/"///正式服务器
 
 #else
-#define API_DOMAIN  @"https://askj.bisilai.com/"///正式服务器
+#define API_DOMAIN  @"https://baidu.com/"///正式服务器
 #endif
 
 /** 账户密码登录 */
