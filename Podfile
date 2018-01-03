@@ -5,6 +5,7 @@ target 'Freege' do
 pod 'AFNetworking','~> 3.0'
 pod 'Masonry','~> 1.0.2'
 pod 'SDWebImage', '~> 4.1.0'
+pod 'CYLTabBarController', '~> 1.17.6'
 pod 'AXWebViewController','~> 0.6.1'
 pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
 pod 'SVProgressHUD'
